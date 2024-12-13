@@ -1,7 +1,11 @@
 ### Project Information
 ```
 Project Title: "Credit Where Credit is Due: Mitigating racial unfairness in credit risk data with the Fairlearn toolkit"
+```
+```
 By: Gia Musselwhite for Princeton University course SML 312
+```
+```
 Paper submitted: 12/6/2024 / Presented on: 12/8/2024 / Code submitted: 12/12/2024
 ```
 ```
@@ -9,7 +13,7 @@ Project adapted for the Wooldridge 'loanapp' dataset using SML 312 precept code,
 ```
 
 ```
-// Abstract: 
+Abstract: 
 Are unfairness mitigation strategies, like threshold optimizer algorithms, able to reduce unfair outcomes in the field of credit scoring classification tasks? This paper builds on a 2024 project by Chunyu Yang, which found the white identity variable to be of high importance in mortgage applications approvals/rejections, and tests the Fairlearn unfairness mitigation toolkit for binary classification. In this paper, I first conduct exploratory data analysis, feature importance visualizations, and robust classification modelling on the 1996 Wooldridge ‘loanapp’ dataset. Afterwards, I attempt to mitigate unfairness due to racial identity in ‘loanapp’ decisions, following the Fairlearn Credit Loan Decisions documentation. I find that postprocessing techniques using threshold optimization reduce disparities between white and non-white applicants for both false positive and false negative credit approval rates. This successfully minimizes the equalizer odds difference and mitigates unfairness in lightgbm dataset classification.
 ```
 
