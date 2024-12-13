@@ -1,15 +1,19 @@
 ### Project Information
-'''
+```
 Project Title: "Credit Where Credit is Due: Mitigating racial unfairness in credit risk data with the Fairlearn toolkit"
 By: Gia Musselwhite for Princeton University course SML 312
 Paper submitted: 12/6/2024 / Presented on: 12/8/2024 / Code submitted: 12/12/2024
-''' 
+```
+```
 Project adapted for the Wooldridge 'loanapp' dataset using SML 312 precept code, Fairlearn example notebooks Credit Loan Decisions documentation (https://fairlearn.org/main/auto_examples/plot_credit_loan_decisions.html#footcite-dudik2020assessing), and other online tutorials
+```
 
-
+```
 // Abstract: 
 Are unfairness mitigation strategies, like threshold optimizer algorithms, able to reduce unfair outcomes in the field of credit scoring classification tasks? This paper builds on a 2024 project by Chunyu Yang, which found the white identity variable to be of high importance in mortgage applications approvals/rejections, and tests the Fairlearn unfairness mitigation toolkit for binary classification. In this paper, I first conduct exploratory data analysis, feature importance visualizations, and robust classification modelling on the 1996 Wooldridge ‘loanapp’ dataset. Afterwards, I attempt to mitigate unfairness due to racial identity in ‘loanapp’ decisions, following the Fairlearn Credit Loan Decisions documentation. I find that postprocessing techniques using threshold optimization reduce disparities between white and non-white applicants for both false positive and false negative credit approval rates. This successfully minimizes the equalizer odds difference and mitigates unfairness in lightgbm dataset classification.
+```
 
+```
 References: 
 Munkhdalai, L., Munkhdalai, T., Namsrai, O.-E., Lee, J. Y., & Ryu, K. H. (2019, January 29). An empirical comparison of machine-learning methods on bank client credit assessments. MDPI. https://www.mdpi.com/2071-1050/11/3/699.
 Stelzer, A. (2019). Predicting credit default probabilities using machine learning techniques in the face of unequal class distributions. ArXiv, abs/1907.12996.
@@ -34,3 +38,4 @@ Hunter, W.C. and Walker, M.B. (1996), “The Cultural Affinity Hypothesis and  M
 Wooldridge. PyPI. (n.d.). https://pypi.org/project/wooldridge/0.1.0/ 
 Yang, C. (2024). Research on loan approval and credit risk based on the comparison of machine learning models. SHS Web of Conferences, 181, 02003. https://doi.org/10.1051/shsconf/202418102003 
 Skowronski, J. (2017, April 14). All about the equal credit opportunity act. Human Rights Campaign. https://www.hrc.org/news/all-about-the-equal-credit-opportunity-act#:~:text=It%20was%20passed%20back%20in,Federal%20Reserve%20Bank%20of%20Philadelphia. 
+```
